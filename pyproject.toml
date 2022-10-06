@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "house-sales"
+version = "0.1.0"
+description = ""
+authors = ["PeteChu <phuengton.ch@gmail.com>"]
+readme = "README.md"
+packages = [{include = "house_sales"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^1.1.2"
+numpy = "^1.23.3"
+pandas = "^1.5.0"
+jupyterlab = "^3.4.8"
+seaborn = "^0.12.0"
+openpyxl = "^3.0.10"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
